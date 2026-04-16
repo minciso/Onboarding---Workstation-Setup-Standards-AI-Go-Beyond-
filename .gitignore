@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and Editor
+.vscode/
+!.vscode/settings.json
+!.vscode/.editorconfig
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# SSH Keys and Sensitive Files
+.ssh/
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+known_hosts
+authorized_keys
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Ansible-specific
+*.retry
+ansible-inventory.yml
+vault-password.txt
+.ansible/
+
+# Git signing test artifacts
+git-sign-test/*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Generated reports
+lint-report.json
+lint-report.html
+test-results.xml
+coverage.xml
+git-sign-test/
