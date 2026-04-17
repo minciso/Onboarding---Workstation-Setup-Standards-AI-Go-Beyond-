@@ -3,3 +3,11 @@ repos:
     rev: v1.35.1
     hooks:
       - id: yamllint
+
+  - repo: local
+    hooks:
+      - id: ansible-lint
+        name: Ansible-lint
+        language: python
+        entry: ansible-lint
+        pass_filenames: false
