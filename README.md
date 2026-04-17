@@ -2,6 +2,20 @@
 
 A local Ansible environment for learning and practicing infrastructure automation with linting and validation tools.
 
+## venv activation
+
+When you close the project, the venv activation is lost. To go back to it later, just reactivate it:
+
+```bash
+# On WSL/Linux/macOS:
+cd /path/to/ansible-onboarding
+source .venv/bin/activate
+
+# On Windows PowerShell:
+cd C:\Users\michael\projects\week12\ansible-onboarding
+.venv\Scripts\Activate.ps1
+```
+Your prompt will change to show (.venv) when activated. The virtual environment and all installed packages (ansible, ansible-lint, yamllint, etc.) are still there — you're just activating it again.
 ## Environment Setup
 
 ### OS & Python Version
